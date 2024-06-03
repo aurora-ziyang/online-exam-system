@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exam:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/exam_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exam" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="commons-beanutils-1.9.2.jar" module-name="exam" />
+          <element id="library" level="module" name="commons-collections-3.2.jar" module-name="exam" />
+          <element id="library" level="module" name="commons-dbutils-1.6.jar" module-name="exam" />
+          <element id="library" level="module" name="commons-logging-1.2.jar" module-name="exam" />
+          <element id="library" level="module" name="fastjson-1.2.5.jar" module-name="exam" />
+          <element id="library" level="module" name="jspsmartupload.jar" module-name="exam" />
+          <element id="library" level="module" name="jstl-1.2.jar" module-name="exam" />
+          <element id="library" level="module" name="mysql-connector-java-5.0.8-bin.jar" module-name="exam" />
+          <element id="library" level="module" name="ojdbc6.jar" module-name="exam" />
+        </element>
+      </element>
+      <element id="library" level="project" name="servlet-api" />
+      <element id="javaee-facet-resources" facet="exam/web/Web" />
+    </root>
+  </artifact>
+</component>
